@@ -1,10 +1,25 @@
 # website-cloner
 
-This project is a simple abstraction on top of website-scraper and website-scraper-puppeteer libraries to clone websites with ease.
+This project is a simple abstraction on top of website-scraper and website-scraper-puppeteer libraries to clone websites with ease from the CLI.
 
 ## Usage
 
 ```sh
 pnpm i -g website-cloner # or npm i -g website-cloner
-website-cloner website.com website2.com website3.com # outputs to ./website-cloner-artifacts by default
+website-cloner -u website.com -u website2.com -u website3.com # outputs to ./website-cloner-artifacts_timestamp by default
+website-cloner -u website.com -o ./abc # outputs to ./abc
 ```
+
+## Development
+
+```sh
+pnpm i 
+# make changes to the code
+pnpm dev -u website.com # ensure that the changes work
+``` 
+
+## Contributing
+
+This code is super simple. It just abstracts the website-scraper and website-scraper-puppeteer libraries' heavy lifting and make it accessible via a CLI that can be easily installed. Its entry point is [./index.mjs](./index.mjs).
+
+Open a pull request or an issue ❤️

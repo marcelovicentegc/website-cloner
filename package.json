@@ -1,20 +1,25 @@
 {
   "name": "website-cloner",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "This project is a simple abstraction on top of website-scraper and website-scraper-puppeteer libraries to clone websites with ease.",
   "main": "index.js",
   "scripts": {
-    "website-cloner": "node ./lib/index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./index.mjs",
+    "release": "semantic-release"
   },
   "bin": {
-    "website-cloner": "./lib/index.mjs"
+    "website-cloner": "./index.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marcelo Cardoso",
   "license": "ISC",
   "dependencies": {
     "website-scraper": "^5.3.1",
     "website-scraper-puppeteer": "^1.1.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^24.0.0"
   }
 }
