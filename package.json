@@ -1,6 +1,6 @@
 {
   "name": "website-cloner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This project is a simple abstraction on top of website-scraper and website-scraper-puppeteer libraries to clone websites with ease.",
   "main": "index.js",
   "scripts": {
