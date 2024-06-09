@@ -1,5 +1,7 @@
 # website-cloner
 
+Do you need to migrate that old website for a friend of yours to a new platform? Or maybe you need to clone a website for a school project? Or maybe you just want to clone a website for fun?
+
 This project is a simple abstraction on top of website-scraper and website-scraper-puppeteer libraries to clone websites with ease from the CLI.
 
 ## Usage
